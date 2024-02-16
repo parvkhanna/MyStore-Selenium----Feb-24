@@ -1,0 +1,14 @@
+{
+"userlogins": [
+ {
+  "username": "parvkhanna11@gmail.com",
+  "password": "parv123",
+  "expectedUsername" : "Parv Khanna"
+ },
+ {
+  "username": "prachi_456@gmail.com",
+  "password": "prachi_456",
+  "expectedUsername" : "Prachi gupta"
+ }
+]
+}

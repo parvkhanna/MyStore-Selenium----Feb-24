@@ -1,0 +1,139 @@
+[INFO ] 2024-02-02 21:25:31.277 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-02 21:25:34.623 [main] Base - Application Launched
+[INFO ] 2024-02-02 21:25:34.661 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-02 21:25:55.388 [main] Base - Driver closed
+[INFO ] 2024-02-02 21:27:00.260 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-02 21:27:03.607 [main] Base - Application Launched
+[INFO ] 2024-02-02 21:27:03.641 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-02 21:27:18.578 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-02 21:27:19.037 [main] Base - Input Credentials
+[INFO ] 2024-02-02 21:27:19.963 [main] Base - Successfully logged in
+[INFO ] 2024-02-02 21:27:20.057 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-02 21:27:20.058 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-02 21:27:20.395 [main] Base - Driver closed
+[INFO ] 2024-02-02 21:35:36.833 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-02 21:35:46.212 [main] Base - Application Launched
+[INFO ] 2024-02-02 21:35:46.240 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-02 21:35:47.350 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-02 21:35:47.847 [main] Base - Input Credentials
+[INFO ] 2024-02-02 21:35:48.775 [main] Base - Successfully logged in
+[INFO ] 2024-02-02 21:35:48.886 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-02 21:35:49.094 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-02 21:35:49.292 [main] Base - Driver closed
+[INFO ] 2024-02-02 21:46:29.929 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-02 21:46:37.712 [main] Base - Application Launched
+[INFO ] 2024-02-02 21:46:37.727 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-02 21:46:39.810 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-02 21:46:40.009 [main] Base - Input Credentials
+[INFO ] 2024-02-02 21:46:41.889 [main] Base - Successfully logged in
+[INFO ] 2024-02-02 21:46:41.931 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-02 21:46:42.050 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-02 21:46:42.156 [main] Base - Driver closed
+[INFO ] 2024-02-03 00:08:25.067 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 00:08:32.858 [main] Base - Application Launched
+[INFO ] 2024-02-03 00:08:32.942 [main] Base - Driver closed
+[INFO ] 2024-02-03 00:09:01.452 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 00:09:09.117 [main] Base - Application Launched
+[INFO ] 2024-02-03 00:09:09.227 [main] Base - Driver closed
+[INFO ] 2024-02-03 00:12:33.071 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 00:12:38.279 [main] Base - Application Launched
+[INFO ] 2024-02-03 00:12:38.373 [main] Base - Driver closed
+[INFO ] 2024-02-03 00:13:59.900 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 00:14:08.508 [main] Base - Application Launched
+[INFO ] 2024-02-03 00:14:08.606 [main] Base - Driver closed
+[INFO ] 2024-02-03 00:17:57.578 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 00:18:05.941 [main] Base - Application Launched
+[INFO ] 2024-02-03 00:18:06.058 [main] Base - Driver closed
+[INFO ] 2024-02-03 12:52:59.435 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 12:53:11.820 [main] Base - Application Launched
+[INFO ] 2024-02-03 12:53:11.918 [main] Base - Driver closed
+[INFO ] 2024-02-03 12:55:22.366 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 12:55:34.713 [main] Base - Application Launched
+[INFO ] 2024-02-03 12:55:34.831 [main] Base - Driver closed
+[INFO ] 2024-02-03 12:58:50.429 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 12:59:06.344 [main] Base - Application Launched
+[INFO ] 2024-02-03 12:59:06.435 [main] Base - Driver closed
+[INFO ] 2024-02-03 17:56:26.329 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 17:56:46.235 [main] Base - Application Launched
+[INFO ] 2024-02-03 17:56:46.448 [main] Base - Driver closed
+[INFO ] 2024-02-03 17:58:09.827 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 17:58:29.225 [main] Base - Application Launched
+[INFO ] 2024-02-03 17:58:29.449 [main] Base - Driver closed
+[INFO ] 2024-02-03 17:59:05.849 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 17:59:09.202 [main] Base - Application Launched
+[INFO ] 2024-02-03 17:59:09.400 [main] Base - Driver closed
+[INFO ] 2024-02-03 18:00:54.423 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 18:01:03.852 [main] Base - Application Launched
+[INFO ] 2024-02-03 18:01:04.132 [main] Base - Driver closed
+[INFO ] 2024-02-03 18:01:33.458 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-03 18:01:36.820 [main] Base - Application Launched
+[INFO ] 2024-02-03 18:01:37.011 [main] Base - Driver closed
+[INFO ] 2024-02-08 10:20:11.775 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 10:20:16.714 [main] Base - Application Launched
+[INFO ] 2024-02-08 10:20:16.953 [main] Base - Driver closed
+[INFO ] 2024-02-08 10:29:46.625 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 10:29:49.956 [main] Base - Application Launched
+[INFO ] 2024-02-08 10:29:50.154 [main] Base - Driver closed
+[INFO ] 2024-02-08 11:07:20.875 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 11:07:47.428 [main] Base - Application Launched
+[INFO ] 2024-02-08 11:07:48.906 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:07:50.215 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:07:50.690 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:07:51.567 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:07:51.661 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-08 11:07:51.948 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-08 11:07:51.957 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:08:08.394 [main] Base - Driver closed
+[INFO ] 2024-02-08 11:14:17.748 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 11:14:21.071 [main] Base - Application Launched
+[INFO ] 2024-02-08 11:14:22.270 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:14:42.823 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:15:03.688 [main] Base - Driver closed
+[INFO ] 2024-02-08 11:15:14.261 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 11:15:17.575 [main] Base - Application Launched
+[INFO ] 2024-02-08 11:15:18.785 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:15:40.431 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:15:40.869 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:15:42.522 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:15:42.637 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-08 11:15:44.351 [main] Base - Successfully logged Out
+[INFO ] 2024-02-08 11:15:44.351 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-08 11:15:44.360 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:15:46.461 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:15:46.898 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:15:48.317 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:15:48.399 [main] Base - VerifyLogin - Failed
+[INFO ] 2024-02-08 11:15:48.934 [main] Base - Driver closed
+[INFO ] 2024-02-08 11:18:32.405 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 11:18:49.449 [main] Base - Application Launched
+[INFO ] 2024-02-08 11:18:50.778 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:18:52.986 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:18:53.472 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:18:55.563 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:18:55.646 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-08 11:18:57.813 [main] Base - Successfully logged Out
+[INFO ] 2024-02-08 11:18:57.814 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-08 11:18:57.822 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:18:59.287 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:18:59.711 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:19:01.028 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:19:01.106 [main] Base - VerifyLogin - Failed
+[INFO ] 2024-02-08 11:19:02.811 [main] Base - Successfully logged Out
+[INFO ] 2024-02-08 11:19:03.017 [main] Base - Driver closed
+[INFO ] 2024-02-08 11:19:53.869 [main] Base - Chrome Browser is launched
+[INFO ] 2024-02-08 11:20:17.033 [main] Base - Application Launched
+[INFO ] 2024-02-08 11:20:18.362 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:20:22.265 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:20:22.739 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:20:24.063 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:20:24.164 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-08 11:20:26.164 [main] Base - Successfully logged Out
+[INFO ] 2024-02-08 11:20:26.164 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-08 11:20:26.172 [main] Base - *******Verify Login Test Starts*******
+[INFO ] 2024-02-08 11:20:28.385 [main] Base - Click on SignIn Link
+[INFO ] 2024-02-08 11:20:28.824 [main] Base - Input Credentials
+[INFO ] 2024-02-08 11:20:30.522 [main] Base - Successfully logged in
+[INFO ] 2024-02-08 11:20:30.590 [main] Base - VerifyLogin - Passed
+[INFO ] 2024-02-08 11:20:32.724 [main] Base - Successfully logged Out
+[INFO ] 2024-02-08 11:20:32.729 [main] Base - *******Verify Login Test Ends*******
+[INFO ] 2024-02-08 11:20:33.006 [main] Base - Driver closed

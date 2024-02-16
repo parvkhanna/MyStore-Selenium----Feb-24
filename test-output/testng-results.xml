@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T11:19:50 IST" name="Default suite" finished-at="2024-02-08T11:20:33 IST" duration-ms="42217">
+    <groups>
+    </groups>
+    <test started-at="2024-02-08T11:19:50 IST" name="Default test" finished-at="2024-02-08T11:20:33 IST" duration-ms="42217">
+      <class name="com.mystore.datadriven.tests.DataDrivenLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.datadriven.tests.DataDrivenLoginTest@5542c4ed]" started-at="2024-02-08T11:19:50 IST" name="setup" finished-at="2024-02-08T11:20:17 IST" duration-ms="26209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.datadriven.tests.DataDrivenLoginTest@5542c4ed]" started-at="2024-02-08T11:20:18 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-02-08T11:20:26 IST" duration-ms="7828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parvkhanna11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parv123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parv Khanna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.datadriven.tests.DataDrivenLoginTest@5542c4ed]" started-at="2024-02-08T11:20:26 IST" name="verifyLoginTest" data-provider="LoginDataProvider" finished-at="2024-02-08T11:20:32 IST" duration-ms="6562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prachi_456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prachi_456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prachi gupta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.datadriven.tests.DataDrivenLoginTest@5542c4ed]" started-at="2024-02-08T11:20:32 IST" name="teardown" finished-at="2024-02-08T11:20:33 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.datadriven.tests.DataDrivenLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
