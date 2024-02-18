@@ -1,9 +1,7 @@
 package com.mystore.datadriven.tests;
 
-import java.io.File;
 import java.io.IOException;
 
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -16,12 +14,6 @@ import com.mystore.utilities.ReadExcelFile;
 
 public class DataDrivenLoginTest extends Base {
 
-	
-//	public static void main(String[] args)
-//	{
-//		File excelFile = new File("./TestData/LoginTestData.xlsx");
-//		System.out.println(excelFile.exists());
-//	}
 	@DataProvider(name = "LoginDataProvider")
 	public String[][] loginDataProvider()
 	{
@@ -45,6 +37,8 @@ public class DataDrivenLoginTest extends Base {
 		}
 		return data;
 	}
+	
+	
 	
 	@Test(dataProvider = "LoginDataProvider")
 	public void verifyLoginTest(String username, String password, String expectedUsername) throws IOException
