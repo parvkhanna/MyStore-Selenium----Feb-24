@@ -23,7 +23,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public static WebDriver driver;
-	public static Logger logger;
+	//public static Logger logger;
+	protected static final Logger logger = LogManager.getLogger(Base.class);
+
 	
 	//Creating the object of readConfig class from utils
 	ReadConfig readConfig = new ReadConfig();
@@ -36,7 +38,6 @@ public class Base {
 	@BeforeClass
 	public void setup()
 	{    //for logging
-		logger = LogManager.getLogger(Base.class);
 		switch(browserName.toLowerCase())
 		{
 		case "chrome":
@@ -77,8 +78,9 @@ public class Base {
 	
 	
 	
-	public void captureScreenShot(WebDriver driver,String testName) throws IOException
+	public void captureScreenShot(WebDriver driver,String testName) 
 	{
+		try {
 		//step1: convert webdriver object to TakesScreenshot interface
 		TakesScreenshot screenshot = ((TakesScreenshot)driver);
 		
@@ -90,5 +92,9 @@ public class Base {
 	
 		//step3: copy image file to destination
 		FileUtils.copyFile(src, dest);
+		}
+		catch (IOException e) {
+	        System.err.println("Failed to capture screenshot: " + e.getMessage());
+		}
 	}
 }
