@@ -26,15 +26,15 @@ public class Base {
 	//public static Logger logger;
 	protected static final Logger logger = LogManager.getLogger(Base.class);
 
-	
+
 	//Creating the object of readConfig class from utils
 	ReadConfig readConfig = new ReadConfig();
-	
+
 	String url = readConfig.getBaseUrl();
 	String browserName = readConfig.getBrowser();
 
-	
-	
+
+
 	@BeforeClass
 	public void setup()
 	{    //for logging
@@ -55,9 +55,8 @@ public class Base {
 			driver = new EdgeDriver();
 			logger.info("edge Browser is launched");
 			break;
-			default : 
-				driver = null;
-				break;
+		default : 
+			throw new IllegalArgumentException("Invalid browser name: " + browserName);
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -65,36 +64,36 @@ public class Base {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		logger.info("Application Launched");
 	}
-	
+
 	@AfterClass	
 	public void teardown()
 	{
-//		driver.close();
-//		logger.info("Browser closed");
+		//		driver.close();
+		//		logger.info("Browser closed");
 
 		driver.quit();
 		logger.info("Driver closed");
 	}
-	
-	
-	
+
+
+
 	public void captureScreenShot(WebDriver driver,String testName) 
 	{
 		try {
-		//step1: convert webdriver object to TakesScreenshot interface
-		TakesScreenshot screenshot = ((TakesScreenshot)driver);
-		
-		//step2: call getScreenshotAs method to create image file
-		
-		File src = screenshot.getScreenshotAs(OutputType.FILE);
-		
-		File dest = new File(System.getProperty("user.dir") + "//Screenshots//" + testName + ".png");
-	
-		//step3: copy image file to destination
-		FileUtils.copyFile(src, dest);
+			//step1: convert webdriver object to TakesScreenshot interface
+			TakesScreenshot screenshot = ((TakesScreenshot)driver);
+
+			//step2: call getScreenshotAs method to create image file
+
+			File src = screenshot.getScreenshotAs(OutputType.FILE);
+
+			File dest = new File(System.getProperty("user.dir") + "//Screenshots//" + testName + ".png");
+
+			//step3: copy image file to destination
+			FileUtils.copyFile(src, dest);
 		}
 		catch (IOException e) {
-	        System.err.println("Failed to capture screenshot: " + e.getMessage());
+			System.err.println("Failed to capture screenshot: " + e.getMessage());
 		}
 	}
 }
