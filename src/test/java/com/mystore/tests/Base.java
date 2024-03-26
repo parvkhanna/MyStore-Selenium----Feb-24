@@ -67,12 +67,11 @@ public class Base {
 
 	@AfterClass	
 	public void teardown()
-	{
-		//		driver.close();
-		//		logger.info("Browser closed");
-
-		driver.quit();
-		logger.info("Driver closed");
+	{ 
+		if (driver != null) {
+			driver.quit();
+			logger.info("Driver closed");
+		}
 	}
 
 
@@ -93,7 +92,7 @@ public class Base {
 			FileUtils.copyFile(src, dest);
 		}
 		catch (IOException e) {
-			System.err.println("Failed to capture screenshot: " + e.getMessage());
+			System.err.println("Error occurred while capturing screenshot: " + e.getMessage());
 		}
 	}
 }
