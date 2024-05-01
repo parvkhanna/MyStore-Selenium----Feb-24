@@ -7,7 +7,7 @@ public class ReadConfig {
 
 	Properties prop;
 	
-	String path = (System.getProperty("user.dir") + "\\Configuration\\config.properties");
+	String path = (System.getProperty("user.dir") + "\\configuration\\config.properties");
 	
 	public ReadConfig()
 	{
