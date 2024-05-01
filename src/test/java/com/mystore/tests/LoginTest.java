@@ -8,11 +8,12 @@ import org.testng.annotations.Test;
 import com.mystore.pageobject.IndexPage;
 import com.mystore.pageobject.LoginPage;
 import com.mystore.pageobject.MyAccountPage;
+import com.mystore.utilities.RetryScripts;
 
 public class LoginTest extends Base {
 
 	
-	@Test(groups = {"SmokeTest"})
+	@Test(groups = {"SmokeTest"}, retryAnalyzer = RetryScripts.class)
 	public void verifyLoginTest() throws IOException
 	{
 		logger.info("*******Verify Login Test Starts*******");
@@ -24,7 +25,6 @@ public class LoginTest extends Base {
 		
 		index.clickOnSignIn();
 		logger.info("Click on SignIn Link");
-		
 		lp.enterCredentials(username,password);
 		logger.info("Input Credentials");
 		lp.clickOnLoginbtn();
