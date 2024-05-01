@@ -23,13 +23,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public static WebDriver driver;
-	//public static Logger logger;
 	protected static final Logger logger = LogManager.getLogger(Base.class);
 
-
-	//Creating the object of readConfig class from utils
+	//Creating the object of readConfig class from utilities package
 	ReadConfig readConfig = new ReadConfig();
-
 	String url = readConfig.getBaseUrl();
 	String browserName = readConfig.getBrowser();
 
@@ -37,7 +34,7 @@ public class Base {
 
 	@BeforeClass
 	public void setup()
-	{    //for logging
+	{    
 		switch(browserName.toLowerCase())
 		{
 		case "chrome":
@@ -74,8 +71,6 @@ public class Base {
 		driver.quit();
 		logger.info("Driver closed");
 	}
-
-
 
 	public void captureScreenShot(WebDriver driver,String testName) 
 	{

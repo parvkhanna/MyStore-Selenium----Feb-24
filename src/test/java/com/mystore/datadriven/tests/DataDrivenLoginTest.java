@@ -18,22 +18,16 @@ public class DataDrivenLoginTest extends Base {
 	public String[][] loginDataProvider()
 	{
 		String fileName = System.getProperty("user.dir") + "\\TestData\\LoginTestData.xlsx";
-
-/*No need to create the object as all the methods in the "ReadExcelFile" are static*/
+		
 		int ttlRows = ReadExcelFile.getRowCount(fileName, "LoginTestData");
 		int ttlColumns = ReadExcelFile.getColCount(fileName, "LoginTestData");
-	
-
+		
 		String data[][]=new String[ttlRows-1][ttlColumns];
 
 		for(int i=1;i<ttlRows;i++)//rows =1,2
 		{
 			for(int j=0;j<ttlColumns;j++)//col=0, 1,2
-			{
-
-				data[i-1][j]=ReadExcelFile.getCellValue(fileName,"LoginTestData", i,j);
-			}
-
+			{data[i-1][j]=ReadExcelFile.getCellValue(fileName,"LoginTestData", i,j);}
 		}
 		return data;
 	}
